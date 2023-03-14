@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='myfooter'>
       <footer className='ali'>
-        Dsigned and developed by Courses4Arab.com
+        Dsigned and developed by Abdulrahman Boda
         <span>🧡</span>
       </footer>
     </div>

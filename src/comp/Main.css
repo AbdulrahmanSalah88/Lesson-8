@@ -18,8 +18,9 @@ main {
 }
 
 
-.main-link.active {
-    color: cyan;
-    box-shadow: 0 0 5px cyan;
-    border-radius: 5px
+
+
+main{
+  font-family: 'El Messiri', sans-serif;
+    ;
 }

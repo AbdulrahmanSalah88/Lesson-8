@@ -1,12 +1,10 @@
 import "./Main.css";
 
-const MainContent = ({ padgheome, Manager }) => {
+const MainContent = ({ task}) => {
   return (
     <div>
       <main>
-        {padgheome}
-        <br />
-        Desinged {Manager}
+      {task}
       </main>
     </div>
   );

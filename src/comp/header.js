@@ -1,15 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
-import './Header.css';
-
+import "./Header.css";
 
 
 const Header = () => {
   return (
     <div className="myheader">
       <header className="hide-when-mobile ali">
-        <h1>
-          <Link to="/">Abdulrahman Salah</Link>
-        </h1>
+        <Link to="/"><h1 dir="ltr">ca4.store</h1></Link>
         <ul className="flex">
           <li className="main-list">
             <NavLink className="main-link" to="/html">
@@ -66,8 +63,8 @@ const Header = () => {
           </li>
         </ul>
       </header>
-      <header  className="show-when-mobile">
-        <h1>Abdulrahman Salah</h1>
+      <header className="show-when-mobile ali">
+      <Link to="/"><h1 dir="ltr">ca4.store</h1></Link>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
@@ -80,13 +77,13 @@ const Header = () => {
             <input id="html" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <NavLink to="/html">Full Course</NavLink>
               </li>
               <li>
-                <a href="">Crash Course</a>
+                <NavLink to="/html">Crash Course</NavLink>
               </li>
               <li>
-                <a href="">learn in 1h</a>
+                <NavLink to="/html">learn in 1h</NavLink>
               </li>
             </ul>
           </div>
@@ -97,10 +94,10 @@ const Header = () => {
             <input id="css" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <NavLink to="/css">Full Course</NavLink>
               </li>
               <li>
-                <a href="">CSS Examples</a>
+                <NavLink to="/css">CSS Examples</NavLink>
               </li>
               <li>
                 <label className="mini-projects" htmlFor="mini">
@@ -128,7 +125,7 @@ const Header = () => {
             <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">coming soon🔥</a>
+                <NavLink to="/javasript">coming soon🔥</NavLink>
               </li>
             </ul>
           </div>

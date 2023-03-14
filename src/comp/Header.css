@@ -1,5 +1,5 @@
 .myheader .ali {
-  background-color: teal;
+  background-color: #1b1b1b;
 }
 
 
@@ -25,4 +25,12 @@
   .hide-when-mobile {
     display: none;
   }
+}
+
+.myheader .main-link.active {
+
+
+  color: cyan;
+  box-shadow: 0 0 5px cyan;
+  border-radius: 5px;
 }
